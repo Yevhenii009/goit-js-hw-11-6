@@ -4,7 +4,7 @@ import './sass/common.scss';
 import './css/styles.css';
 import './sass/gallery.scss';
 import './partials/gallery.html';
-import itemsTemplate from './template/index.hbs';
+import './template/index.hbs';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import SimpleLightbox from "simplelightbox";
 import NewsApiService from './js/news-servise';
