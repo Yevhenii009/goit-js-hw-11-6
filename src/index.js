@@ -1,11 +1,10 @@
 import Notiflix from 'notiflix';
-// import { Notify } from 'notiflix/build/notiflix-notify-aio';
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import './sass/common.scss';
 import './css/styles.css';
 import './sass/gallery.scss';
 import './partials/gallery.html';
-import './template/index.hbs';
-// import itemsTemplate from './template/index.hbs';
+import itemsTemplate from './template/index.hbs';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import SimpleLightbox from "simplelightbox";
 import NewsApiService from './js/news-servise';
